@@ -1,0 +1,23 @@
+.main-footer {
+    background: #2F2272;
+    li {
+        padding-right:15px;
+        a {
+            color: #fff !important;
+        }
+    }
+
+   
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .rights {
+        
+        .text-right {
+            text-align: center !important;
+        }
+    
+    }
+}

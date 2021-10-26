@@ -1,0 +1,285 @@
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Roboto', serif !important;
+  background-color: #201854 !important;
+}
+ 
+  
+.row {
+    margin: 0;
+    padding: 0;
+}
+  
+.p-0 {
+    padding: 0px;
+}
+
+.p0 {
+  padding: 0px;
+}
+  
+  // All transitions
+  div,ul,a,p,h1,h2,h3,h4,h5,h6,span,button {
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+  }
+
+  textarea {
+      resize: none;
+      height: 60px;
+      width: 100%;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+
+  
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  div,p,h1,h2,h3,h4,h5,h6 {
+    margin: 0 0;
+  }
+  
+  h1 {
+    font-size: 80px !important;
+    font-style: normal !important;
+  }
+
+  .grey{
+      color:  #8CA0B9 !important;
+  }
+
+
+  .ptb20{
+      padding: 20px 0;
+  }
+
+  h2 {
+    font-size: 42px !important;
+    font-style: normal !important;
+  }
+
+  p {
+      font-size: 16px !important;
+  }
+  
+  .btn-common {
+    background: linear-gradient(147.34deg, #FCD419 13.76%, #F07A3D 88.48%);
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    font-size: 13px;
+    text-transform: uppercase;
+
+    &:hover {
+     color: #E05414;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     background-color: #fff;
+   }
+   &:active {
+    color: #E05414;
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+     background-color: #fff;
+   }
+   &:focus {
+     outline: none;
+   }
+}
+
+
+ .ptb {
+    padding: 60px 0;
+}
+
+.yellow {
+  color: #E09414;
+}
+.border-img {
+  border-radius: 10px;
+}
+
+.common {
+    color: #E09414 ;
+}
+
+.green {
+    color: #6DFF39;
+}
+
+.red {
+color: #f41e5e;
+}
+.white {
+    color: #fff !important;
+}
+
+
+.navbar-toggle {
+  background-color: #333;
+
+  .icon-bar {
+    background-color: #eee;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    outline: none;
+
+    &:focus {
+      outline: none;
+    }
+
+    .form-inline {
+    
+      flex-flow: unset !important;
+     
+      /* align-items: center; */
+      flex-direction: column !important;
+      justify-content: start !important;
+      /* text-align: left; */
+  }
+}
+
+.main-footer {
+  text-align: center;
+
+  .text-right {
+    text-align: center !important;
+  }
+}
+
+.main-about .main-tile .inner-tile li {
+  padding-right: 0px;
+}
+
+.main-team {
+  .inner-content{
+    .carousel-control-next {
+      right: 0 !important;
+      left: 40px !important;
+      top: -44px !important;
+      height: 30px;
+    }
+    .carousel-control-prev {
+      right: 0 !important;
+      left: 0px !important;
+      top: -44px !important;
+      height: 30px;
+    }
+  } 
+  
+}
+
+// .main-navbar {
+//   .modal-dialog {
+//     position: relative;
+//     width: 48%;
+//     margin: .5rem;
+//     pointer-events: none;
+// }
+// }
+
+
+.main-about {
+  .inner-img {
+    img {
+      margin: 20px auto !important;
+    }
+  } 
+} 
+ 
+  h1 {
+    font-size: 2.5rem !important;
+  }
+
+  h2 {
+    font-size: 2.5rem !important;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .ptb {
+    padding: 30px 0;
+  }
+
+  .xs-0 {
+    padding: 0px;
+  }
+
+  .main-mint,.main-banner { 
+    .inner-content{
+      .modal-content {
+        .for-padding {
+          padding: 0 0px !important;
+      }
+      }   
+    }  
+  }
+
+}
+// 12 pro
+@media only screen 
+    and (device-width: 390px) 
+    and (device-height: 844px) 
+    and (-webkit-device-pixel-ratio: 3) {
+      .nav-brand {
+        margin-left: 15px;
+      }
+      
+     
+      h1 {
+        font-size: 3.5rem !important;
+      }
+    
+      h2 {
+        font-size: 2.5rem !important;
+        font-weight: bold;
+      }
+    
+      .ptb {
+        padding: 20px 0;
+    }
+    }
+// 12 pro max 
+    @media only screen 
+    and (device-width: 428px) 
+    and (device-height: 926px) 
+    and (-webkit-device-pixel-ratio: 3) {
+      .nav-brand {
+        margin-left: 15px;
+      }
+      
+     
+      h1 {
+        font-size: 3.5rem !important;
+      }
+    
+      h2 {
+        font-size: 2.5rem !important;
+        font-weight: bold;
+      }
+    
+      .ptb {
+        padding: 20px 0;
+    }
+    }
