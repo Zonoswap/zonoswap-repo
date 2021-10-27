@@ -3,7 +3,7 @@ import './roadmap.scss';
 const Roadmap = () => {
     return (
         <>
-            <section className="main-rewards  ptb">
+            <section className="main-rewards  ptb" id="roadmap">
                 <div className="container">
                     <div className="row">
 

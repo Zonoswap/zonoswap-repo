@@ -3,7 +3,7 @@ import './community.scss';
 const Community = () => {
     return (
         <>
-            <section className="community ptb">
+            <section className="community ptb" id="community">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-3 main-tile1 p-0"></div>

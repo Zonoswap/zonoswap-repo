@@ -3,7 +3,7 @@ import './faqs.scss';
 const Faqs = () => {
     return (
         <>
-            <section className="main-faqs ptb">
+            <section className="main-faqs ptb" id="faqs">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12">

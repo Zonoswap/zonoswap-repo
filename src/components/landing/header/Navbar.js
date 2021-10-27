@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './navbar.scss';
 import { useWeb3React } from '@web3-react/core'
-import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 import useAuth from '../../../hooks/useAuth';
 // import $ from "jquery";
 // import WalletConnectProvider from "@walletconnect/web3-provider";
@@ -77,21 +77,24 @@ const Navbar = () => {
                             </li> */}
                         </ul>
                         <form className="form-inline my-2 my-lg-0">
-                        <a className="nav-link" href="#">
+                        <HashLink className="nav-link" to="#banner">
                                     HOME
-                                </a>
-                                <a className="nav-link" href="#">
+                                </HashLink>
+                                <HashLink className="nav-link" to="#aboutus">
                                     ABOUT US
-                                </a>
-                                <a className="nav-link" href="#">
+                                </HashLink>
+                                <HashLink className="nav-link" to="#whyus">
                                     WHY US
-                                </a>
-                                <a className="nav-link" href="#">
+                                </HashLink>
+                                <HashLink className="nav-link" to="#roadmap">
                                     ROADMAP
-                                </a>
-                                <a className="nav-link" href="#">
+                                </HashLink>
+                                <HashLink className="nav-link" to="#faqs">
                                     FAQS
-                                </a>
+                                </HashLink>
+                                <HashLink className="nav-link" to="#community">
+                                    COMMUNITY
+                                </HashLink>
                         </form>
                     </div>
                 </nav>

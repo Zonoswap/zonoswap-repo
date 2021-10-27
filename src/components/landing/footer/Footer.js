@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.scss';
+import { HashLink } from 'react-router-hash-link';
 const Footer = () => {
     return (
         <>
@@ -58,9 +59,9 @@ const Footer = () => {
 
                         <div className="col-sm-2 text-right">
                             <div className="inner-logo">
-                                <a className="white" >
+                                <HashLink className="white" to="#banner">
                                     BACK TO TOP
-                                </a>
+                                </HashLink>
                             </div>
                         </div>
                     </div>
@@ -72,11 +73,6 @@ const Footer = () => {
                         <div className="col-sm-10">
                             <div className="inner-rights">
                                 <p className="white">© 2021 ZonoSwap, All Rights Reserved</p>
-                            </div>
-                        </div>
-                        <div className="col-sm-2">
-                            <div className="inner-rights text-right">
-                                <a className="white">Term & Conditions</a>
                             </div>
                         </div>
                     </div>

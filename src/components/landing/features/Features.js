@@ -3,7 +3,7 @@ import './features.scss';
 const Features = () => {
     return (
         <>
-            <section className="main-stake ptb">
+            <section className="main-stake ptb" id="whyus">
                 <div className="container">
                     <div className="row">
 

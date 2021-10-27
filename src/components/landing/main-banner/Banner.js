@@ -50,7 +50,7 @@ const Banner = () => {
 
     return (
         <>
-            <section className="main-banner ptb">
+            <section className="main-banner ptb" id="banner">
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-6">
@@ -60,7 +60,7 @@ const Banner = () => {
                                 <p className="ptb20 white">Explore the crypto world with the leading digital crypto trading platform along with an ever-growing community.</p>
                                 <ul className="list-inline">
                                     <li className="list-inline-item">
-                                        <button className="btn-common">Buy ZONOSWAP</button>
+                                        <a className="btn-common" href="https://zonoswap.com/#/swap" target="_blank">Buy ZONOSWAP</a>
                                     </li>
                                     
                                 </ul>
