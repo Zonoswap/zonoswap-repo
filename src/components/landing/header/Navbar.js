@@ -89,12 +89,18 @@ const Navbar = () => {
                                 <HashLink className="nav-link" to="#roadmap">
                                     ROADMAP
                                 </HashLink>
-                                <HashLink className="nav-link" to="#faqs">
+                                {/* <HashLink className="nav-link" to="#faqs">
                                     FAQS
-                                </HashLink>
+                                </HashLink> */}
                                 <HashLink className="nav-link" to="#community">
                                     COMMUNITY
                                 </HashLink>
+                                <a className="nav-link" href='https://github.com/solidproof/smart-contract-audits/blob/main/SmartContract_Audit_Solidproof_ZONOSwap.pdf' target="_blank">
+                                    SMART CONTRACT AUDIT
+                                </a>
+                                <a className="nav-link" href='https://github.com/solidproof/kyc-certificates/blob/main/KYC_Certificate_Zono_Swap.png' target="_blank">
+                                    KYC AUDIT
+                                </a>
                         </form>
                     </div>
                 </nav>
